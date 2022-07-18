@@ -56,11 +56,11 @@ text-decoration: none;
 }
 
 .banner {
-background-image: url(../imagenes/banner.jpeg);
+background-image: url(../imagenes/banner.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom center;
-padding: 100px 4rem;
+padding: 145px 4rem;
 color: #ffffff;
 background-attachment: fixed;
 text-align: right;
