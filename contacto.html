@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- Vinculacion de la hoja de estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- Vinculacion de mi hoja de estilos propia CSS -->   
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <!-- Vinculacion de la libreria de iconos Jam Icons v2 - Iconos Tipograficos -->
+       <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+       <script src="https://kit.fontawesome.com/0522ff4f8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <header class="header">
+            <img class="logo" img src="imagenes/logotipo-blanco.png" alt="Logotipo" width="294" height="82">
+            <nav class="nav"> 
+                <ul class="nav__lista"> 
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="porfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+</header>
+     <main class="main">
+      <section>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <!-- Carousel -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imagenes/banner_01.jpg" class="d-block w-100" alt="banner_01">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/banner_02.jpg" class="d-block w-100" alt="banner_02">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/banner_03.jpg" class="d-block w-100" alt="banner_03">
+                          </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+  
+    <section class="contacto1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <h1>Formulario de Contacto</h1>
+                          <p>Estoy disponible para trabajos en todo el mundo. Si estas interesado en comprar impresiones, licenciar imágenes o encargar un proyecto, ¡envíame un mensaje!</p>
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipo" class="form-label">Tipo de consulta</label>
+                            <select class="form-select" id="tipo" aria-label="Default select example">
+                                <option selected>Seleccione</option>
+                                <option value="1">Ediciones Photoshop</option>
+                                <option value="2">Fotografía de Stock</option>
+                                <option value="3">Fotografía Eventos</option>
+                                <option value="3">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="button" class="btn btn-secondary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.2930356939755!2d-62.40926168502235!3d-38.71108069368895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edb8fc337dfc03%3A0x3119d0c067c5233a!2s12%20de%20Octubre%2C%20Gral.%20Daniel%20Cerri%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1658044796693!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>  
+
+       <a href="https://wa.me/1123324544" class="position-fixed" target="_blank">
+            <span class="jam jam-whatsapp"></span>
+        </a>
+    </section>
+
+    <section class="contacto2">
+      <div class="container">
+        <p><h2> <h1>Próximas Exposiciones Internacionales</h1></h2></p>
+          <div class="row">
+              <div class="col-12 col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/evento_01.jpg" class="card-img-top" alt="evento_01">
+                      <div class="card-body">
+                        <h5 class="card-title">International Center of Photography (ICP) | Nueva York, EE. UU.</h5>
+                        <p class="card-text">30/07/2022</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/evento_02.jpg" class="card-img-top" alt="evento_02">
+                      <div class="card-body">
+                        <h5 class="card-title">Exposiciones Fotográficas: Galería Hamiltons | Londres, Reino Unido</h5>
+                        <p class="card-text">01/08/2022</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/evento_03.jpg" class="card-img-top" alt="evento_03">
+                      <div class="card-body">
+                        <h5 class="card-title">Evento Fotográfico: Jackson Fine Art | Atlanta, EE. UU.</h5>
+                        <p class="card-text">15/10/2022</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="contacto3">
+    <div class="container">
+      <p><h1>CAPACITACIONES | WORKSHOP</h1></p>
+      <P>Las capacitaciones online consisten en encuentros virtuales donde podrás elegir trabajar de forma grupal o individual, enfocadas en la post producción/edición online.</P>
+      <P>Los encuentros estan destinados a analizar material teórico, práctico y ediciones de fotografías.</P>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="./imagenes/capacitaciones_01.jpg" class="card-img-top" alt="capacitaciones_01">
+                    <div class="card-body">
+                      <h5 class="card-title">Set de Acciones</h5>
+                      <button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="./imagenes/capacitaciones_02.jpg" class="card-img-top" alt="capacitaciones_02">
+                    <div class="card-body">
+                      <h5 class="card-title">Textura del Artista</h5>
+                      <button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="./imagenes/capacitaciones_03.jpg" class="card-img-top" alt="capacitaciones_03">
+                    <div class="card-body">
+                      <h5 class="card-title">Light & Dust</h5>
+                      <button type="button" class="btn btn-secondary btn-lg">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    </main>   
+             
+
+     <footer class="footer">
+      <div class="footer__flex">
+        <img src="imagenes/logotipo-blanco.png" alt="Logotipo" width="294" height="82">
+        <ul class="footer__lista">
+            <li class="footer__item">
+                <a class="fa-brands fa-facebook" href=""></a>
+            </li>
+            <li class="footer__item">
+                <a class="fa-brands fa-linkedin" href=""></a>
+            </li>
+            <li class="footer__item">
+                <a class="fa-brands fa-instagram" href=""></a>
+            </li>
+        </ul>
+    </div>
+        <p>©ro-web 2022</p>
+    </footer> 
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
